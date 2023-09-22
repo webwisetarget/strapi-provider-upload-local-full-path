@@ -1,0 +1,31 @@
+{
+  "name": "strapi-provider-upload-local-full-path",
+  "version": "1.0.0",
+  "author": "WT <wt@gmail.com>",
+  "deprecated": false,
+  "description": "Local provider for strapi upload path with custom full path",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.0.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "upload",
+    "strapi",
+    "path"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "./lib",
+  "maintainers": [
+    "WT <wt@gmail.com>"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
